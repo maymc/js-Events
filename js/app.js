@@ -45,6 +45,15 @@ tacocatMouseOver.addEventListener('mouseover', zoom);
 
 Next, create a function named valueMenu that will display your favorite items in the paragraph the the id of `menu` after clicking on the showMenu paragraph.*/
 
+var menuItems = ["chicken nuggets", "McChicken", "McFlurry"];
+
+function valueMenu(){
+	document.getElementById("menu").innerHTML = menuItems;
+}
+
+var menuBtn = document.getElementById("menu");
+menuBtn.addEventListener('click', valueMenu);
+
 
 //5. Gin.
 /*Create a function named redFace that will change the paragraph text to red and a font size of 30px after clicking on the text.*/
