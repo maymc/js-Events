@@ -20,8 +20,18 @@ baconBtn.addEventListener('click', moreContent);
 The function will hide the contents in the pargraph with the id of `less` after clicking on the `Show Less` link.*/
 
 
+function lessContent(){
+	document.getElementById("less").style.visibility = "hidden";
+}
+
+var hipsterBtn = document.getElementById("less");
+hipsterBtn.addEventListener('click', lessContent);
+
 //3. Tacocat, The Original Palindrome King
 /*Create a function named `zoom` that will increase the font size of the paragraph with the id of `biggie` after hovering your mouse over it. Increae the font size to 150%*/
+
+
+
 
 
 //4. McDonalds
