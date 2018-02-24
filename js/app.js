@@ -30,7 +30,13 @@ hipsterBtn.addEventListener('click', lessContent);
 //3. Tacocat, The Original Palindrome King
 /*Create a function named `zoom` that will increase the font size of the paragraph with the id of `biggie` after hovering your mouse over it. Increae the font size to 150%*/
 
+function zoom() {
+	document.getElementById("biggie").style.fontSize = "150%";
+}
 
+
+var tacocatMouseOver = document.getElementById("biggie");
+tacocatMouseOver.addEventListener('mouseover', zoom);
 
 
 
