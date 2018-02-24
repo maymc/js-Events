@@ -108,3 +108,24 @@ randomBtn.addEventListener('click', randomQuote);
 //9. Unlock the Secret to Financial Freedom
 /*Create an event listener that will show and hide the message when clicking on the button.
 */
+
+function secret(){
+
+	var temp = document.getElementById("showmoney");
+    if (temp.style.display === "none") {
+        temp.style.display = "block";
+    } else {
+        temp.style.display = "none";
+    }
+}
+
+var showHideBtn = document.getElementById("showHide");
+showHideBtn.addEventListener('click', secret);
+
+
+
+
+
+
+
+
