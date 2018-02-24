@@ -75,10 +75,20 @@ function showPrice() {
 var priceMouseOver = document.getElementById("price");
 priceMouseOver.addEventListener('mouseover', showPrice);
 
+
+
 //7. Mr. Buttons
 /*Add an Event Listener to the button that will display `myQuote` inside the paragraph with the id of `displayQuote` after the button is clicked.*/
 
 var myQuote = "Our lives are defined by opportunities; even the ones we miss.";
+
+function dispQuote(){
+	document.getElementById("displayQuote").innerHTML = myQuote;
+}
+
+var quoteElem = document.getElementById("Benjamin");
+
+quoteElem.addEventListener('click', dispQuote);
 
 
 //8. Say It again, Randomly
